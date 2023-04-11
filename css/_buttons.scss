@@ -1,0 +1,16 @@
+@mixin buttons() {
+  all: unset;
+  font-family: $font-georgia;
+  color: $color-dark-3xl;
+  background-color: $color-primary;
+  font-size: 1.1rem;
+  letter-spacing: 0.9px;
+  padding: 1rem 2.7rem;
+  border-radius: 2rem;
+  transition: 0.3s all;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+}
